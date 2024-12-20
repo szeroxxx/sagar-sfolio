@@ -17,19 +17,20 @@ import { AiOutlineAntDesign } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinux } from "react-icons/fa";
 import { SiMaterialdesign } from "react-icons/si";
+import { RiNextjsLine } from "react-icons/ri";
 
 // Skill data array
 const skills = [
   { name: "React.js", icon:<FaReact color="#e10df1" />  },
+  { name: "RESTful APIs", icon:<RiNextjsLine color="#e10df1" /> },
   { name: "Redux", icon: <SiRedux color="#e10df1" /> },
   { name: "JavaScript (ES6+)", icon:<IoLogoJavascript color="#e10df1" /> },
-  { name: "HTML5", icon: <FaHtml5 color="#e10df1" />  },
-  { name: "CSS3", icon: <FaCss3Alt color="#e10df1" /> },
-  // { name: "RESTful APIs", icon:'' },
   { name: "Python", icon:  <AiOutlinePython color="#e10df1" />},
   { name: "Node.js", icon:<FaNodeJs color="#e10df1" />},
   { name: "Django", icon: <TbBrandDjango color="#e10df1" /> },
   { name: "PostgreSQL", icon:<DiPostgresql color="#e10df1" />},
+  { name: "HTML5", icon: <FaHtml5 color="#e10df1" />  },
+  { name: "CSS3", icon: <FaCss3Alt color="#e10df1" /> },
   { name: "AntDesign", icon: <AiOutlineAntDesign color="#e10df1" /> },
   { name: "Material UI", icon: <SiMaterialdesign color="#e10df1" /> },
   { name: "Git", icon:<FaGithub color="#e10df1" /> },
