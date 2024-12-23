@@ -4,7 +4,6 @@ import { OrbitControls, Sphere } from "@react-three/drei";
 import { pointsInner, pointsOuter } from "./_utils";
 import Layout from "../../components/Layout";
 import About from "../../components/About";
-import Contact from "../../components/Contact";
 import RevealBento from "./Contact"
 const ParticleRing = () => {
   return (

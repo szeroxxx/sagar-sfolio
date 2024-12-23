@@ -1,9 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
-import { FiArrowRight, FiMail, FiMapPin } from "react-icons/fi";
-import { SiGithub, SiTiktok, SiTwitter, SiYoutube } from "react-icons/si";
-import { CiMail } from "react-icons/ci";
 import { MdMail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
