@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
-import { pointsInner, pointsOuter } from "./utils";
+import { pointsInner, pointsOuter } from "./_utils";
 import Layout from "../../components/Layout";
 import About from "../../components/About";
 import Contact from "../../components/Contact";

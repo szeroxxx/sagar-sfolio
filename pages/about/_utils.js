@@ -5,15 +5,8 @@ const LEFT_COLOR = "6366f1";
 const RIGHT_COLOR = "8b5cf6";
 const NUM_POINTS = 2500;
 
-/**
- * --- Credit ---
- * https://stackoverflow.com/questions/16360533/calculate-color-hex-having-2-colors-and-percent-position
- */
 const getGradientStop = (ratio) => {
-    // For outer ring numbers potentially past max radius,
-    // just clamp to 0
     ratio = ratio > 1 ? 1 : ratio < 0 ? 0 : ratio;
-
     const c0 = LEFT_COLOR.match(/.{1,2}/g).map(
     (oct) => parseInt(oct, 16) * (1 - ratio)
     );
@@ -46,21 +39,21 @@ const randomFromInterval = (min, max) => {
 export const pointsInner = Array.from(
     { length: NUM_POINTS },
     (v, k) => k + 1
-).map((num) => {
-    const randomRadius = randomFromInterval(MIN_RADIUS, MAX_RADIUS);
-    const randomAngle = Math.random() * Math.PI * 2;
+    ).map((num) => {
+        const randomRadius = randomFromInterval(MIN_RADIUS, MAX_RADIUS);
+        const randomAngle = Math.random() * Math.PI * 2;
 
-    const x = Math.cos(randomAngle) * randomRadius;
-    const y = Math.sin(randomAngle) * randomRadius;
-    const z = randomFromInterval(-DEPTH, DEPTH);
+        const x = Math.cos(randomAngle) * randomRadius;
+        const y = Math.sin(randomAngle) * randomRadius;
+        const z = randomFromInterval(-DEPTH, DEPTH);
 
-    const color = calculateColor(x);
+        const color = calculateColor(x);
 
-    return {
-    idx: num,
-    position: [x, y, z],
-    color,
-    };
+        return {
+        idx: num,
+        position: [x, y, z],
+        color,
+        };
 });
 
 export const pointsOuter = Array.from(
