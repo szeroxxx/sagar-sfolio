@@ -41,7 +41,7 @@ const skills = [
 export default function SkillGrid() {
   return (
     <section className="container mx-auto py-10 px-6">
-      <h2 className="text-3xl  mb-8 font-bold">My Skills⚙️</h2>
+      <h2 className="text-3xl  mb-8 font-bold">My Skills ⚙️</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-center">
         {skills.map((skill, index) => (
           <div
