@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
-import { pointsInner } from "./_utils";
 import Layout from "../../components/Layout";
 import About from "../../components/About";
 import RevealBento from "./Contact";
