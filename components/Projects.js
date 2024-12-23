@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const ProjectCard = ({ project }) => {
@@ -29,27 +28,27 @@ const ProjectCard = ({ project }) => {
 
 // Example Usage
 const ProjectShowcase = () => {
-    const projects = [
-        {
-          image: "https://via.placeholder.com/600x400",
-          title: "Moviez",
-          description:
-            "Movies - Modern Movie Database Website is a showcase of cutting-edge web development. Crafted with Next.js, Redux, Tailwind CSS, and SASS.",
-          link: "#",
-        },
-        {
-          image: "https://via.placeholder.com/600x400",
-          title: "E-Commerce Platform",
-          description:
-            "A complete e-commerce platform built with React.js, Node.js, and MongoDB, providing seamless shopping experiences.",
-          link: "#",
-        },
-    ]
+  const projects = [
+    {
+      image: "https://via.placeholder.com/600x400",
+      title: "Moviez",
+      description:
+        "Movies - Modern Movie Database Website is a showcase of cutting-edge web development. Crafted with Next.js, Redux, Tailwind CSS, and SASS.",
+      link: "#",
+    },
+    {
+      image: "https://via.placeholder.com/600x400",
+      title: "E-Commerce Platform",
+      description:
+        "A complete e-commerce platform built with React.js, Node.js, and MongoDB, providing seamless shopping experiences.",
+      link: "#",
+    },
+  ];
 
   return (
     <section className="container mx-auto my-12 ">
-        <h2 className="text-2xl font-bold mb-4">Rocketed Projects 🚀</h2>
-        {projects.map((project, index) => (
+      <h2 className="text-2xl font-bold mb-4">Rocketed Projects 🚀</h2>
+      {projects.map((project, index) => (
         <ProjectCard key={index} project={project} />
       ))}
     </section>
@@ -57,5 +56,3 @@ const ProjectShowcase = () => {
 };
 
 export default ProjectShowcase;
-
-  
