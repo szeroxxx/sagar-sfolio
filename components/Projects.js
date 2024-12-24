@@ -27,7 +27,7 @@ const ProjectShowcase = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/api/hello");
+        const response = await fetch("/api/project");
         const data = await response.json();
         setProData(data);
       } catch (error) {
