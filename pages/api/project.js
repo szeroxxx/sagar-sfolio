@@ -12,7 +12,7 @@ const project = [
     image: "../static/praci1.png",
     title: "Praci",
     description:
-      "Praci is a project management tool built with Next.js, Redux, React, and Tailwind CSS. It allows task creation for workers, tracks user activity timelines, and monitors progress to enhance productivity and workflow efficiency.",
+      "Praci is a project management tool built with Next.js, Redux, React, TypeScript, and Tailwind CSS. It allows task creation for workers, tracks user activity timelines, and monitors progress to enhance productivity and workflow efficiency.",
     link: "#",
   },
   {

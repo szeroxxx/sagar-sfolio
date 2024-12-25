@@ -18,13 +18,15 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinux } from "react-icons/fa";
 import { SiMaterialdesign } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
+import { TbBrandTypescript } from "react-icons/tb";
 
 // Skill data array
 const skills = [
-  { name: "React.js", icon:<FaReact color="#e10df1" />  },
-  { name: "RESTful APIs", icon:<RiNextjsLine color="#e10df1" /> },
+  { name: "Reactjs", icon:<FaReact color="#e10df1" />  },
+  { name: "Nextjs", icon:<RiNextjsLine color="#e10df1" /> },
   { name: "Redux", icon: <SiRedux color="#e10df1" /> },
   { name: "JavaScript (ES6+)", icon:<IoLogoJavascript color="#e10df1" /> },
+  { name: "TypeScript", icon:<TbBrandTypescript color="#e10df1" /> },
   { name: "Python", icon:  <AiOutlinePython color="#e10df1" />},
   { name: "Node.js", icon:<FaNodeJs color="#e10df1" />},
   { name: "Django", icon: <TbBrandDjango color="#e10df1" /> },
