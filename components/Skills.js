@@ -51,7 +51,7 @@ export default function SkillGrid() {
             className="flex flex-col items-center p-4 shadow-lg rounded-lg transition-transform duration-300 hover:shadow-gray-400 hover:scale-105"
           >
             <div className="text-5xl mb-3 font-bold">{skill.icon}</div>
-            <p className="text-gray-400 font-medium">{skill.name}</p>
+            <p className="text-pink-400 font-medium">{skill.name}</p>
           </div>
         ))}
       </div>
