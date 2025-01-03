@@ -13,7 +13,7 @@ export default function Contact() {
       },
       {
         platform: "GitHub",
-        link: "https://github.com/thes0796?tab=repositories",
+        link: "https://github.com/szeroxxx?tab=repositories",
         icon: <FaGithub />,
         text: "Check out my GitHub",
       },

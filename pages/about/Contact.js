@@ -64,10 +64,11 @@ const HeaderBlock = () => (
     />
     <span className="text-zinc-300 text-2xl">Full-Stack Developer</span>
     <h1 className="mb-12 text-4xl font-medium leading-tight">
-     I’m a sagar gohil.{" "}
+      I’m a sagar gohil.{" "}
       <span className="text-zinc-400">
-       building software for people and businesses.
-       I love building software that solves real-world problems, add value to society through technology..
+        building software for people and businesses. I love building software
+        that solves real-world problems, add value to society through
+        technology..
       </span>
     </h1>
   </Block>
@@ -97,7 +98,7 @@ const SocialsBlock = () => (
       className="col-span-6 bg-green-600 md:col-span-3"
     >
       <a
-        href="https://github.com/thes0796?tab=repositories"
+        href="https://github.com/szeroxxx?tab=repositories"
         className="grid h-full place-content-center text-3xl text-white"
       >
         <FaGithub />
@@ -111,10 +112,10 @@ const SocialsBlock = () => (
       className="col-span-6 bg-zinc-50 md:col-span-3"
     >
       <a
-        href="https://www.linkedin.com/in/sagarxero?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        href="https://www.instagram.com/thes0796/profilecard/?igsh=cDU1OW12cDdyaGNv"
         className="grid h-full place-content-center text-3xl text-black"
       >
-        <FaLinkedin />
+        <GrInstagram />
       </a>
     </Block>
     <Block
@@ -125,10 +126,10 @@ const SocialsBlock = () => (
       className="col-span-6 bg-blue-500 md:col-span-3"
     >
       <a
-        href="https://www.instagram.com/thes0796/profilecard/?igsh=cDU1OW12cDdyaGNv"
+        href="https://www.linkedin.com/in/sagarxero?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         className="grid h-full place-content-center text-3xl text-white"
       >
-        <GrInstagram />
+        <FaLinkedin />
       </a>
     </Block>
   </>
