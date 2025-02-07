@@ -1,6 +1,6 @@
 const work = [
   {
-    company: "Freelance React Developer at Brihati SoftTech",
+    company: "Brihati SoftTech",
     year: "Aug 2024 - Present",
     description:
       "Developed React/Next JS apps, streamlined teamwork, gamified interactions.",
