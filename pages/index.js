@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <Layout>
       <About />
-      <WorkExperience />
+      {/* <WorkExperience />
       <Projects />
       <SkillGrid/>
-      <Contact/>
+      <Contact/> */}
     </Layout>
   );
 }

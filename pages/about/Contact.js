@@ -63,12 +63,8 @@ const HeaderBlock = () => (
       className="rounded-full w-28 h-28 mb-4 block"
     />
     <p class="transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50 p-2 rounded-md">
-  #thes0796
-</p>
-
-
-
-
+      #thes0796
+    </p>
 
     <span className="text-zinc-300 text-2xl">Full-Stack Developer</span>
     <h1 className="mb-12 text-4xl font-medium leading-tight">

@@ -7,7 +7,7 @@ import RevealBento from "./Contact";
 const ParticleRing = () => {
   return (
     <Layout>
-      <About />
+      {/* <About /> */}
       <RevealBento />
 
       <div className="relative">
