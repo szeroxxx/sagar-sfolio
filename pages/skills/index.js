@@ -20,6 +20,7 @@ import { FaLinux } from "react-icons/fa";
 import { SiMaterialdesign } from "react-icons/si";
 import { RiNextjsLine } from "react-icons/ri";
 import { TbBrandTypescript } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
 
 // Skill data array
 const skills = [
@@ -34,6 +35,7 @@ const skills = [
   { name: "PostgreSQL", icon: <DiPostgresql color="#e10df1" /> },
   { name: "HTML5", icon: <FaHtml5 color="#e10df1" /> },
   { name: "CSS3", icon: <FaCss3Alt color="#e10df1" /> },
+  { name: "Tailwind", icon: <SiTailwindcss color="#e10df1" /> },
   { name: "AntDesign", icon: <AiOutlineAntDesign color="#e10df1" /> },
   { name: "Material UI", icon: <SiMaterialdesign color="#e10df1" /> },
   { name: "Git", icon: <FaGithub color="#e10df1" /> },
